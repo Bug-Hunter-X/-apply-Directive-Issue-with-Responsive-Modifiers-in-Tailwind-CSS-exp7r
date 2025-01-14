@@ -1,0 +1,3 @@
+# Bug Report: Tailwind CSS @apply Directive Issue
+
+This repository demonstrates a bug where Tailwind CSS's `@apply` directive doesn't correctly apply responsive modifiers. The expected behavior is that the background color should change based on the screen size, but it doesn't always work as expected.  The issue is likely related to how `@apply` interacts with responsive directives, potentially due to conflicts with CSS specificity or other factors.  The solution provides a workaround to achieve the expected behavior.

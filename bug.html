@@ -1,0 +1,9 @@
+The following code snippet demonstrates an issue with Tailwind CSS's `@apply` directive not working as expected when used with responsive modifiers:
+
+```html
+<div class="bg-gray-100 md:bg-gray-200">
+  <!-- Content -->
+</div>
+```
+
+This code intends to make the background gray-100 on smaller screens and gray-200 on larger screens (using the `md:` modifier). However, in some cases, `@apply` might not correctly apply the responsive styles.

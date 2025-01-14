@@ -1,0 +1,9 @@
+To resolve this issue, it's recommended to avoid using `@apply` with responsive modifiers. Instead, apply the classes directly:
+
+```html
+<div class="bg-gray-100 md\:bg-gray-200">
+  <!-- Content -->
+</div>
+```
+
+This direct approach ensures that Tailwind's responsive system works correctly, overcoming the limitations or inconsistencies encountered with `@apply` in this scenario.  Using utility classes directly provides better control and predictability in these situations.
